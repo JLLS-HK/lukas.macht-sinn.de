@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html manifest="index.manifest" lang="en-UK">
+<head>
+<link rel="stylesheet" href="Css/FootballStats.css">
+<link rel="shortcut icon" href="Photos/icon.png">
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="author" content="Marc Lukas Harfich">
+<meta name="keywords" content="game, games, php, Dude Perfect, clock, time">
+<meta name="description" content="My own Website!">
+<meta name="theme-color" content="light orange">
+<title>Lukas</title>
+</head>
+<body>
+<div id="header">
+<h2>Welcome to my Website where we put loads of football statistics<br>(Work in Progress)</h2>
+</div>
+<div id="topnav">
+<a href="2page.html" style="background-color:#ddd; color:black;">Home</a>
+<a href="game.htm">Game</a>
+<a href="index.php">PHP File</a>
+<a href="Dude_Perfect.html">Dude Perfect</a>
+<a href="paint.html">Clock</a>
+<a id="search" href="#" title="Work in Progress!" style="float:right;">Search</a>
+</div>
+<div id="content" style="margin:10px;">
+<h1 id="head">Please select which team you want to see their squad in 2014 World Cup.</h1>
+<a id="button" href="germany.html">Germany!!!</a>
+</div>
+<script>
+var x = document.getElementById("search");
+x.addEventListener("mouseover",fun);
+x.addEventListener("mouseout", fun2);
+
+function fun() {
+    x.innerHTML = "Work in Progress!";
+}
+
+function fun2() {
+    x.innerHTML = "Search";
+}
+
+</script>
+</body>
+</html>

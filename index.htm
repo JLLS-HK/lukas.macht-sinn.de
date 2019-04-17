@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html manifest="index.manifest" lang="en-US">
+<head>
+<title>Lukas</title>
+<link rel="stylesheet" href="Css/style.css" type="text/css">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="shortcut icon" href="Icon.png">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126820472-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-126820472-1');
+</script>
+<meta name="google-site-verification" content="OVi3q_hxgGhf145-wIDv74f81wqeGa_bqwGLFwS5prg" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Marc Lukas Harfich">
+<meta name="keywords" content="game, games, php, Dude Perfect, clock, time">
+<meta name="description" content="My own Website!">
+<meta name="theme-color" content="light orange">
+<script>
+function clickCounter() {
+    if(typeof(Storage) !== "undefined") {
+        if (localStorage.clickcount) {
+            localStorage.clickcount = Number(localStorage.clickcount)+1;
+        } else {
+            localStorage.clickcount = 1;
+        }
+        document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+}
+document.cookie = "username=John Doe";
+</script>
+</head>
+<body>
+<div id="header">
+<h1>Welcome to My Website!</h1>
+</div>
+<!-- <div style="padding:0px;" id="topnav">
+<a href="2page.html">Home</a>
+<a href="game.htm">Game</a>
+<a href="index.php">PHP File</a>
+<a href="Dude_Perfect.html">Dude Perfect</a>
+<a href="paint.html">Clock</a>
+<a href="#" title="Work in Progress!" style="float:right;">Search</a>
+</div> -->
+<h1>Well Hello!</h1>
+<h1 style="margin-top:0px;">Hello Guys!</h1>
+<h2>This is my first (or second) webpage.</h2>
+<h2>If you want to see my scratch projects, click <b><a class="link" target="_blank" href="https://scratch.mit.edu/users/JLLS_HK/">here</a></b> to see my awesome scratch games!</h2><h3>(I'm also a scratcher) My scratch image:</h3>
+<a class="link" href="https://scratch.mit.edu/users/JLLS_HK/" target="_blank"><img class="Pro_Pic" src="Photos/Profile.png"></a><h3>Let me show you some cool stuff!</h3>
+<h4>Who do you go for in the world cup?</h4>
+<textarea style="cursor:auto; border:none; background-color:#f0e0d0; height:187px; width:565px;" readonly>Try to type here! Turns out you can't type! But you can resize it. Loads of text: 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula consequat lectus, quis suscipit tortor sagittis ut. Aliquam ultricies ex nec accumsan dictum. Cras a lectus ultricies, volutpat lacus sit amet, consequat mi. Phasellus vel venenatis lectus. Donec condimentum consectetur erat quis lacinia. Vestibulum non ligula non enim accumsan posuere a vel enim. Pellentesque nisi justo, hendrerit sed odio vitae, lobortis accumsan lectus. Etiam sit amet nisl a velit vulputate varius. Pellentesque tincidunt tellus id odio elementum vestibulum. Mauris fermentum libero sit amet justo vestibulum, ut euismod ex aliquet. Nullam quis neque eleifend lorem ullamcorper elementum a facilisis nisl. Nam elementum magna quis felis pulvinar aliquam. Aenean sodales urna mi, at gravida purus maximus sit amet. Integer nibh orci, finibus eu interdum eu, euismod ac quam. Suspendisse tempor nisi eget risus sagittis, non molestie nisi sagittis. Phasellus dictum efficitur dui at interdum.</textarea>
+<p style="margin-bottom:1px;">A button:</p>
+<h6 style="margin:1px;">(But it doesn't do anything, you can't even click it)</h6>
+<button class="button" disabled>Click Me</button>
+<p>Web storage:</p>
+<p><button onclick="clickCounter()" id="button" class="button">Click me!</button></p><h6 style="margin:1px;">(But this does...)</h6>
+<div id="result"></div>
+<p>Click the button to see the counter increase.</p>
+<p>Close the browser tab (or window), and try again, and the counter will continue to count (is not reset).</p>
+<button type="button" class="button" onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+<h3>If you want to see the time in a clock click <a class="link" href="paint.html">here</a> to see it.</h3>
+<h4>If you want to play a game click <a class="link" href="/Game">here</a>.(not suitable for mobile phone users)</h4>
+<h6 style="font-size:5px;"><a class="link" style="color:black;"href="harry.htm">For Harry</a>:</h6>
+<h3>If you are also a Dude Perfect Fan (like me!) click <a class="link" href="Dude_Perfect.html">here</a> to go to my other website.</body>
+<h3>Click <a class="link" href="index.php">here</a> to see my PHP File...</h3>
+<div id="End">
+<h3><center>Got any ideas for how to improve this website? Send an email to me and tell me how to improve it. Click <a href="mailto:lukas.harfich@gmail.com" target="_top" style="color:lightblue;">lukas.harfich@gmail.com</a> to send it or copy this email. lukas.harfich@gmail.com</center></h2>
+<p>Links used in this website</p>
+<ul>
+<li>
+<a class="link" href="https://scratch.mit.edu/users/JLLS_HK/" target="_blank">Scratch</a>
+</li>
+<li>
+<a class="link" href="/Game">Game</a>
+</li>
+<li>
+<a class="link" href="Dude_Perfect.html">Dude Perfect</a>
+</li>
+<li>
+<a class="link" href="index.php">PHP file</a>
+</li>
+<li>
+<a class="link" href="paint.html">Time</a>
+</li>
+</ul>
+<div id="End_Words">
+<h2 title="~~The End~~">~~The End~~</h2>
+</div>
+</div>
+</html>
